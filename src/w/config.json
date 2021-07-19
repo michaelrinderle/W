@@ -1,0 +1,84 @@
+{
+    "_Info": [
+      "This is the JSON based Configuration for W",
+      "",
+      "Please do not edit any fields without any permission of Michael Rinderle."
+    ],
+    "InternalInfo": {
+      "project": "w",
+      "Modified": "07/15/2022",
+      "Author": "Michael Rinderle <michael@sofdigital>",
+      "Support": "www.michaelrinderle.com",
+      "license": "*"
+    },
+    "Basic": {
+      "_ConfigVersion": "Configuration Version - For future usage only",
+      "ConfigVersion": "0.0.1",
+      "_Customer": "Name of the customer company - For future usage only",
+      "Customer": "Sof Digital",
+      "_Environment": "Valid is: Production, Dryrun, Leaduser, Testing, Development",
+      "Environment": "Production",
+      "_Support": "This value will be provided by the support team, never change this by yourself!",
+      "Support": "VALUE HERE IF NEEDED"
+    },
+    "Logging": {
+      "_enabled": "Boolean / Valid is: true or false",
+      "enabled": "false",
+      "Settings": {
+        "_Directory": "An Example could be: Microsoft.PowerShell.Core\\FileSystem::\\\\psf\\Home\\Documents\\dev\\clones.new\\sca-powershell\\ - Mind the JSON escapes!",
+        "Directory": "C:\\scripts\\PowerShell\\logs\\",
+        "_level": "Valid is: Loglevel from 0 (none) to 9 (debug)",
+        "level": "0",
+        "_Debug": "General debug switch",
+        "Debug": "false"
+      }
+    },
+    "Packages": {
+        "WindowsFeatures" : [
+            "Microsoft-Windows-Subsystem-Linux",
+            "VirtualMachinePlatform"
+        ],
+        "WingetPackages" : [
+            "Microsoft.WindowsTerminal",
+            "7zip.7zip",
+            "BleachBit.BleachBit",
+            "Git.Git",
+            "BraveSoftware.BraveBrowser",
+            "eloston.ungoogled-chromium",
+            "SQLiteBrowser.SQLiteBrowser",
+            "Postman.Postman",
+            "Insecure.Nmap",
+            "Microsoft.VisualStudioCode",
+            "StrawberryMusicPlayer.Strawberry",
+            "Microsoft.VisualStudio.2019.Enterprise",
+            "Discord.Discord",
+            "Oracle.JavaRuntimeEnvironment",
+            "AdoptOpenJDK.OpenJDK.16"
+        ],
+        "ChocolatelyPackages" : [
+            "keepassx",
+            "torchat",
+            "veracrypt",
+            "androidstudio",
+            "processhacker"
+        ],
+        "VSWorkloads" : [
+            "worload"
+        ],
+        "VSCodeExtensions" : [
+            "ms-python.python",
+            "ms-vscode-remote.remote-wsl",
+            "ms-vscode.powershell",
+            "PKief.material-icon-theme"
+        ],
+        "VcpkgPackages" : [
+            "curl"
+        ]
+    },
+    "Domains" : [
+      "Install", 
+      "Registry", 
+      "Security",
+      "System"
+    ]
+  }
